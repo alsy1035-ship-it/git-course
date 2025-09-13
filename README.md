@@ -1,6 +1,8 @@
 This repo was made for documintary purposes i will be documenting what i learned every day from react to tailwindcss
 if you have any advice on coding or git in general i would be thankfull for it
-note:this repo contains the latest project i made if you want to see the old ones for some reason you can find them in the tags menu
+
+note: the repo contains the latest project i have learned if you want to see the old code go to tags each one has its project
+
 
 🕳Day 1 : 
   i tried downloading tailwindcss but i met some npm init and npm run dev issues.
