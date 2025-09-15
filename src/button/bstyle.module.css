@@ -1,0 +1,16 @@
+
+.butt{
+padding: 10px 20px;
+border: 2px solid black;
+border-radius: 10px;
+background-color: hsl(180, 100%,70%);
+font-size: 3em;
+transition: background-color 0.25s;
+}
+
+.butt:hover{
+
+background-color: hsl(180, 100%,80%);
+
+}
+

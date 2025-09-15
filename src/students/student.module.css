@@ -1,0 +1,30 @@
+body{background-color: hsl(0, 0%, 85%); display: flex; }
+.card{
+    float: left;
+width: 200px;
+height: 300px;
+margin: 30px;
+border: 2px solid black;
+box-shadow: 2px 2px 5px hsl(0, 0%, 22%);
+
+}
+.card:hover{ animation-duration: 1s ; animation-name: glow; animation-iteration-count: infinite;}
+.text{
+
+
+    margin-right: 5px;
+    font-size: 2rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+img{
+    width: 200px;
+    height: 54.499999999%;
+   
+}
+
+@keyframes glow{
+
+50%{box-shadow: 0px 0px 20px black;}
+
+}
