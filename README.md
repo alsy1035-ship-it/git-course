@@ -15,6 +15,8 @@ learn React before next.js so here we are.
 🕳Day 3: internet was off for the whole day so i couldnt open any videos.
 
 🕳Day 4: i made another simple card but this time i used probes.
-things i learned today: 1_css is a bitch when it comes to spacing out your items 
-2_i can just add the projects with its css as a component without needing to delete it now need for tags just link the component to the app component
+things i learned today: 
+1-css is a bitch when it comes to spacing out your items 
+2-i can just add the projects with its css as a component without needing to delete it now need for tags just link the component to the app component
+3-i need to watch a video on spacing and sizing stuff in css 
 
