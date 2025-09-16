@@ -20,3 +20,5 @@ things i learned today:
 2-i can just add the projects with its css as a component without needing to delete it now need for tags just link the component to the app component
 3-i need to watch a video on spacing and sizing stuff in css 
 
+🕳Day 5: nothing much today but i worked a little bit on my css and i managed to make a rotation animation with the back of the card turning white instade of mirroring the content inside it. all in all it was a great experement.
+
