@@ -1,5 +1,5 @@
 import styles from "./student.module.css"
-import pic from "./funny.png"
+import PropTypes from "prop-types";
 
 function students (probs)
 {
@@ -7,18 +7,41 @@ function students (probs)
 
 return(
 
+
 <div className={styles.card}>
-<p className={styles.text}>
-Name: {probs.name}
-<br />
-Age: {probs.age}
-</p>
-<img src={pic} alt="" />
+    <div className={styles.inner}>
+        <div className={styles.front}>
+            <p> name: {probs.name} <br /> age: {probs.age} </p>
+            <img src={probs.img} alt="" />
+        </div >
+        <div className={styles.back}>
+
+
+
+        </div>
+    </div>
 
 </div>
+
+
+
+
+
+
+
+
+
 
 );
 
 }
+
+students.PropTypes = 
+{
+name : PropTypes.string,
+age : PropTypes.number
+
+
+};
 
 export default students;
