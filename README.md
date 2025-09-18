@@ -22,3 +22,4 @@ things i learned today:
 
 🕳Day 5: nothing much today but i worked a little bit on my css and i managed to make a rotation animation with the back of the card turning white instade of mirroring the content inside it. all in all it was a great experement.
 
+🕳Day 6: Learned how to use usestate() function and made a simple app with it that increases and decreases the age + sets the name you cant set the name your self its already preset.
