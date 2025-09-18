@@ -1,7 +1,8 @@
-import styles from "./student.module.css"
-import PropTypes from "prop-types";
+import styles from "./student.module.css";
 
-function students (probs)
+
+
+function Students (props)
 {
 
 
@@ -11,37 +12,19 @@ return(
 <div className={styles.card}>
     <div className={styles.inner}>
         <div className={styles.front}>
-            <p> name: {probs.name} <br /> age: {probs.age} </p>
-            <img src={probs.img} alt="" />
+            <p> name: {props.name} <br /> age: {props.age} </p>
+            <img src={props.img} alt="" />
         </div >
         <div className={styles.back}>
-
-
-
+         card description
         </div>
     </div>
 
 </div>
 
-
-
-
-
-
-
-
-
-
 );
 
 }
 
-students.PropTypes = 
-{
-name : PropTypes.string,
-age : PropTypes.number
 
-
-};
-
-export default students;
+export default Students;
