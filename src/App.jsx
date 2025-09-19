@@ -4,13 +4,13 @@ import pic3 from "./students/pic3.jpg"
 import pic4 from "./students/pic4.jpg"         
 import Students from "./students/Student.jsx"*/
 //import List from "./Lists/List.jsx"
-import Update from "./usestate/Use.jsx"
-
+//import Update from "./usestate/Use.jsx"
+//import Color from "./ColorPicker/Color.jsx"
 function App() {
 
 return(
 <>
-<Update/>
+
 </>
 
 )
